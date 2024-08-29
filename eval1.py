@@ -51,7 +51,6 @@ if __name__ == "__main__":
 
     my_shopping_list.display_list()
 
-    # Adding functionality to reverse the list
     reverse_choice = input("Do you want to reverse the list? (yes/no): ").strip().lower()
     if reverse_choice == "yes":
         my_shopping_list.reverse_list()
